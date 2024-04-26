@@ -1,0 +1,32 @@
+2024-04-26 11:50:56,946 [INFO] USER:Saikrishna_Chityala s3_resource.py:40:validate_bucket_name LOG: Starting validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-sbox01'
+2024-04-26 11:50:56,947 [INFO] USER:Saikrishna_Chityala s3_resource.py:73:validate_bucket_name LOG: Finished validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-sbox01'
+2024-04-26 11:50:58,671 [WARNING] USER:Saikrishna_Chityala generator.py:76:generate_configuration_files LOG: The config_path property is not specified. The working directory is used
+2024-04-26 11:50:58,672 [ERROR] USER:Saikrishna_Chityala __init__.py:44:_mkdir LOG: [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\Saikrishna_Chityala\\learning-workspaces\\AWS\\Syndicate\\learning-syndicate\\hello_world_url\\.syndicate-config-dev'
+2024-04-26 11:50:58,673 [WARNING] USER:Saikrishna_Chityala generator.py:93:generate_configuration_files LOG: The "project_path" property is not specified. The working directory will be used as a project path. To change the path, edit the syndicate.yml by path C:\Users\Saikrishna_Chityala\learning-workspaces\AWS\Syndicate\learning-syndicate\hello_world_url\.syndicate-config-dev
+2024-04-26 11:50:58,680 [INFO] USER:Saikrishna_Chityala generator.py:155:generate_configuration_files LOG: Syndicate initialization has been completed. 
+Set SDCT_CONF:
+Unix: export SDCT_CONF="C:\Users\Saikrishna_Chityala\learning-workspaces\AWS\Syndicate\learning-syndicate\hello_world_url\.syndicate-config-dev"
+Windows: setx SDCT_CONF C:\Users\Saikrishna_Chityala\learning-workspaces\AWS\Syndicate\learning-syndicate\hello_world_url\.syndicate-config-dev
+2024-04-26 11:50:58,682 [INFO] USER:Saikrishna_Chityala helper.py:336:timed LOG: Stage config, elapsed time: 0:00:01.734095
+2024-04-26 11:51:49,649 [INFO] USER:Saikrishna_Chityala processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-04-26 11:51:51,009 [INFO] USER:Saikrishna_Chityala bundle_processor.py:207:create_bundles_bucket LOG: Bundles bucket syndicate-education-platform-custom-sandbox-artifacts-sbox01 already exists
+2024-04-26 11:51:51,009 [INFO] USER:Saikrishna_Chityala helper.py:336:timed LOG: Stage create_deploy_target_bucket, elapsed time: 0:00:01.360513
+2024-04-26 11:52:00,490 [INFO] USER:Saikrishna_Chityala processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-04-26 11:52:03,191 [INFO] USER:Saikrishna_Chityala helper.py:336:timed LOG: Stage test, elapsed time: 0:00:00
+2024-04-26 11:52:03,217 [INFO] USER:Saikrishna_Chityala project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\Saikrishna_Chityala\learning-workspaces\AWS\Syndicate\learning-syndicate\hello_world_url\jsrc\main\java\com\helloworldurl.
+2024-04-26 11:52:03,218 [INFO] USER:Saikrishna_Chityala project_state.py:335:_update_lambdas_from_path LOG: Going to add the following 'java' lambda:'hello_world' to the pending ProjectState.
+2024-04-26 11:52:03,218 [INFO] USER:Saikrishna_Chityala project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\Saikrishna_Chityala\learning-workspaces\AWS\Syndicate\learning-syndicate\hello_world_url\src\lambdas.
+2024-04-26 11:52:03,218 [INFO] USER:Saikrishna_Chityala project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\Saikrishna_Chityala\learning-workspaces\AWS\Syndicate\learning-syndicate\hello_world_url\app\lambdas.
+2024-04-26 11:52:03,218 [INFO] USER:Saikrishna_Chityala project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\Saikrishna_Chityala\learning-workspaces\AWS\Syndicate\learning-syndicate\hello_world_url\swagger_src.
+2024-04-26 11:52:03,244 [INFO] USER:Saikrishna_Chityala java.py:30:assemble_java_mvn_lambdas LOG: Java sources are located by path: C:/Users/Saikrishna_Chityala/learning-workspaces/AWS/Syndicate/learning-syndicate/hello_world_url/jsrc/main/java
+2024-04-26 11:52:03,244 [INFO] USER:Saikrishna_Chityala java.py:31:assemble_java_mvn_lambdas LOG: Going to process java mvn project by path: C:/Users/Saikrishna_Chityala/learning-workspaces/AWS/Syndicate/learning-syndicate/hello_world_url
+2024-04-26 11:52:08,421 [INFO] USER:Saikrishna_Chityala java.py:44:assemble_java_mvn_lambdas LOG: Java mvn project was processed successfully
+2024-04-26 11:52:08,423 [INFO] USER:Saikrishna_Chityala helper.py:336:timed LOG: Stage assemble_java_mvn, elapsed time: 0:00:05.178651
+2024-04-26 11:52:08,544 [INFO] USER:Saikrishna_Chityala helper.py:336:timed LOG: Stage assemble_java_mvn, elapsed time: 0:00:05.301038
+2024-04-26 11:52:08,545 [INFO] USER:Saikrishna_Chityala helper.py:336:timed LOG: Stage assemble, elapsed time: 0:00:05.328332
+2024-04-26 11:52:08,669 [INFO] USER:Saikrishna_Chityala meta_processor.py:476:create_meta LOG: Bundle path: C:/Users/Saikrishna_Chityala/learning-workspaces/AWS/Syndicate/learning-syndicate/hello_world_url/bundles/hello_world_url_240426.115200
+2024-04-26 11:52:08,686 [INFO] USER:Saikrishna_Chityala helper.py:299:write_content_to_file LOG: C:\Users\Saikrishna_Chityala\learning-workspaces\AWS\Syndicate\learning-syndicate\hello_world_url\.syndicate-config-dev/bundles/hello_world_url_240426.115200\build_meta.json file was created.
+2024-04-26 11:52:08,688 [INFO] USER:Saikrishna_Chityala helper.py:336:timed LOG: Stage package_meta, elapsed time: 0:00:00.019236
+2024-04-26 11:52:11,571 [INFO] USER:Saikrishna_Chityala bundle_processor.py:185:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2024-04-26 11:52:25,550 [INFO] USER:Saikrishna_Chityala helper.py:336:timed LOG: Stage upload, elapsed time: 0:00:15.736480
+2024-04-26 11:52:25,580 [INFO] USER:Saikrishna_Chityala helper.py:336:timed LOG: Stage build, elapsed time: 0:00:23.741272
