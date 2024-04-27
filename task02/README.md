@@ -1,4 +1,4 @@
-# hello_world_url
+# naruto
 
 High level project overview - business value it brings, non-detailed technical overview.
 
@@ -7,9 +7,9 @@ All the technical details described below are actual for the particular
 version, or a range of versions of the software.
 ### Actual for versions: 1.0.0
 
-## hello_world_url diagram
+## naruto diagram
 
-![hello_world_url](pics/hello_world_url_diagram.png)
+![naruto](pics/naruto_diagram.png)
 
 ## Lambdas descriptions
 
